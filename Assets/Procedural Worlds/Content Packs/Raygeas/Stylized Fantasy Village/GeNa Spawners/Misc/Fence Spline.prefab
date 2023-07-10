@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3024432494733608002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8483707217776657570}
+  - component: {fileID: 8926949306450551538}
+  m_Layer: 0
+  m_Name: Fence Spline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8483707217776657570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3024432494733608002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8926949306450551538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3024432494733608002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99cc26c6dca9bc44a2f05751ded9dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Spline
+  m_autoSmooth: 1
+  m_smoothIntersections: 1
+  m_settings:
+    m_advanced:
+      m_debuggingEnabled: 0
+      m_visualizationProximity: 100
+      m_autoUpdateCarve: 0
+  m_startNode:
+    m_id: 4294967295
+    m_position: {x: 0, y: 0, z: 0}
+    m_up: {x: 0, y: 1, z: 0}
+    m_scale: {x: 1, y: 1, z: 1}
+    m_roll: 0
+  m_endNode:
+    m_id: 4294967295
+    m_position: {x: 0, y: 0, z: 0}
+    m_up: {x: 0, y: 1, z: 0}
+    m_scale: {x: 1, y: 1, z: 1}
+    m_roll: 0
+  m_nodes:
+  - m_id: 7
+    m_position: {x: 39.931335, y: 41.486908, z: 39.09439}
+    m_up: {x: 0, y: 1, z: 0}
+    m_scale: {x: 1, y: 1, z: 1}
+    m_roll: 0
+  m_curves: []
+  m_isLoop: 0
+  m_length: 0
+  m_smoothStrength: 0.8
+  m_autoSnapToGroundOnSubdivide: 1
+  m_simplifyEpsilon: 1.5
+  m_simplifyScale: 1
+  m_pathFindingEnabled: 0
+  m_ignoreMask: 0
+  m_maxGrade: 10
+  m_cellSize: 10
+  m_minHeight: 28
+  m_maxHeight: 5000
+  m_useHeuristicB: 0
+  m_slopeStrengthFactor: 0.9
+  m_useExistingCurves: 0
+  m_curveTravelCost: 0.2
+  m_isDirty: 0
+  m_extensions:
+  - m_isActive: 1
+    m_isSelected: 1
+    m_extension: {fileID: 0}
+  m_selectedExtensionIndex: 0
+  m_updateSpline: 1
+  m_nodeIDCount: 8
